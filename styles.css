@@ -58,4 +58,13 @@ button {
   font-size: 14px;
   border-radius: 5px;
   margin-top: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+button:hover {
+  transform: translateY(-1px);
+  background-color: hsl(221, 83%, 53%);
+}
+button:active {
+  background-color: rgb(10, 143, 10);
 }
